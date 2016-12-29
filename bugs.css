@@ -1,0 +1,8 @@
+// Bug > Stylesheet not updating
+// SOURCE > http://stackoverflow.com/questions/12717993/stylesheet-not-updating
+
+  // before
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  // Now
+  <link rel="stylesheet" type="text/css" href="css/style.css?<?php echo time(); ?>">
